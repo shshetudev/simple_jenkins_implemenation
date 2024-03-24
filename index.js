@@ -7,4 +7,5 @@ app.get('/ready', function (req, res) {
     res.send('{ "response": "It works!" }');
 });
 app.listen(process.env.PORT || 3000);
+console.log(`Applicaiton started at 3000`);
 module.exports = app;
